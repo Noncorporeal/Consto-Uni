@@ -1,4 +1,4 @@
-﻿html {
+html {
   font-size: 14px;
 }
 
@@ -15,8 +15,33 @@
 html {
   position: relative;
   min-height: 100%;
+  
 }
 
 body {
   margin-bottom: 60px;
+  font-family: 'Franklin Gothic Medium';
+}
+
+.jumbotron {
+   margin: auto;
+   width: 100%;
+   background-color: lightgrey;
+   padding: 10px;
+   text-align: center;
+   background-image: url("/content/ContosoUniversity.jpg");
+   background-repeat: no-repeat;
+   background-position: center -1300px;
+   margin-bottom: 20px;
+}
+
+.logo {
+   width: 60%;
+   padding-top: 50px;
+   padding-bottom: 200px;
+}
+
+.navbar 
+{
+   background-color: lightblue;
 }
